@@ -126,3 +126,8 @@ nav ul li a .Fourth {
 nav ul li a .Fifth {
     background: #37a4d9; /* Color del colegio (Azul cielo) */
 }
+
+.social{
+    text-decoration: none;
+    color: #000;
+}
