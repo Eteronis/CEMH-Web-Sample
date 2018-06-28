@@ -126,3 +126,8 @@ nav ul li a .icon-text-documents{
 nav ul li a .icon-list{
     background: #darkblue;
 }
+
+footer{
+    text-align: center;
+    padding: 0px;
+}
