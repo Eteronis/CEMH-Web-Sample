@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="./estilo.css" />
 <link rel="stylesheet" href="./style.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Icons -->
+<link rel="stylesheet" href="./Slideshow.css" /> <!-- Sliceshow sheet -->
 <body>
 
     <header> <!-- Bar Menu begins -->
@@ -34,7 +35,34 @@
             </ul>
         </nav>
     </header> <!-- Bar menu ends -->
-
+    <!-- Slideshow -->
+    <div class="content-all">
+        <div class="content-img" id="img1">
+            <a href="#img5" class="fa fa-angle-left" id="left-angle"></a> <!-- Go backwards -->
+            <img src="./images/dia_familiar.jpg" alt="" />
+            <a href="#img2" class="fa fa-angle-right" id="right-angle"></a> <!-- Go forward -->
+        </div>
+        <div class="content-img" id="img2">
+            <a href="#img1" class="fa fa-angle-left" id="left-angle"></a> <!-- Go backwards -->
+            <img src="./images/dia_madres.jpg" alt="" />
+            <a href="#img3" class="fa fa-angle-right" id="right-angle"></a> <!-- Go forward -->
+        </div>
+        <div class="content-img" id="img3">
+            <a href="#img2" class="fa fa-angle-left" id="left-angle"></a> <!-- Go backwards -->
+            <img src="./images/family.jpg" alt="" />
+            <a href="#img4" class="fa fa-angle-right" id="right-angle"></a> <!-- Go forward -->
+        </div>
+        <div class="content-img" id="img4">
+            <a href="#img3" class="fa fa-angle-left" id="left-angle"></a> <!-- Go backwards -->
+            <img src="./images/feria_expomarca.jpg" alt="" />
+            <a href="#img5" class="fa fa-angle-right" id="right-angle"></a> <!-- Go forward -->
+        </div>
+        <div class="content-img" id="img5">
+            <a href="#img4" class="fa fa-angle-left" id="left-angle"></a> <!-- Go backwards -->
+            <img src="./images/payaso-kanqui.jpg" alt="" />
+            <a href="#img1" class="fa fa-angle-right" id="right-angle"></a> <!-- Go forward -->
+        </div>
+    </div>
 </body>
 <footer>
     <h3>
@@ -43,7 +71,7 @@
             <span class="fa fa-thumb-tack"> </span> Avenida Garcia Godoy No. 48 y 55. La Vega, Republica Dominicana | <span class=""> <i class="fa fa-volume-control-phone"></i>
             </span> (809) 573-3303 | <a class="social" href="https://www.facebook.com/cemhlv/" target="_blank"><i class="fa fa-facebook-f"></i></a>
             <a class="social" href="https://twitter.com/cemhlv?lang=en" target="_blank"> <i class="fa fa-twitter"></i></a><br/>
-            <hr>Todos los Derechos Reservados &copy; | <em><a href="" target="_blank">Eteronis</em></a> &reg; |
+            <hr>Todos los Derechos Reservados &copy; | <em><a id="eteronis" href="" target="_blank">Eteronis</em></a> &reg; |
         </center>
     </h3>
 </footer>

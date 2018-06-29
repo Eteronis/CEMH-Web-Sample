@@ -127,7 +127,19 @@ nav ul li a .Fifth {
     background: #37a4d9; /* Color del colegio (Azul cielo) */
 }
 
+body{
+    background: #1f1f1f;
+}
+
+footer{
+    color: #fff;
+}
+
 .social{
     text-decoration: none;
-    color: #000;
+    color: #fff;
+}
+
+#eteronis{
+    color: #f1f1f1;
 }
