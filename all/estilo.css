@@ -15,7 +15,6 @@ header {
 
 nav {
     width: 90%
-    max-width: 1000px;
 }
 
 nav ul {
@@ -85,14 +84,14 @@ nav > ul > li > a span {
     display: block;
     height: 100%;
     width: 100%
-    left: 0px;
-    position: absolute;
-    top: -55px;
-    -webkit-transition: all .3s ease; /* Animacion */
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+    /* left: 0px; */
+    /* position: absolute; */
+    /* top: -55px; */
+    /* -webkit-transition: all .3s ease; Animacion */
+    /* -moz-transition: all .3s ease; */
+    /* -ms-transition: all .3s ease; */
+    /* -o-transition: all .3s ease; */
+    /* transition: all .3s ease; */
 }
 
 nav > ul > li > a span .icon {
@@ -135,7 +134,7 @@ body {
 }
 
 .pie {
-    background-color: #blue;
+    /* background-color: #blue; */
 }
 
 footer{
