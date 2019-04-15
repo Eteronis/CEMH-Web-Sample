@@ -1,11 +1,74 @@
 #Navigator{
-  background-color:#4fa6d09c;
+  background-color:#f8f8f8;
 }
 
 #ContainerNavigator{
   padding: 0px;
 }
 
+#ContainerNavigator nav{
+  position: top;
+}
+
 body{
-  background-color: #4fa6d09c;
+  background-color: #ffffff;
+}
+
+#landingContainer{
+  background-color: #eeeeee;
+  padding-bottom: 50px;
+}
+
+#historiaTitle h1{
+  text-align: center;
+}
+
+#imgHistoria img{
+  width: 100%;
+  max-width: 930px;
+  height: auto;
+}
+
+#contentHistoria p{
+  text-align: justify;
+  padding-left: 95px;
+  padding-right: 90px;
+}
+
+#FooterContainer{
+  padding: 0px;
+}
+
+#BienvenidosPortal{
+  padding-top: 30px;
+  text-align: center;
+}
+
+#AvisosImportantes{
+  text-align: center;
+  padding-top: 40px;
+}
+
+#AvisosImportantes h3{
+  color:#ff0000;
+}
+#AvisosImportantes p{
+  font-weight: bolder;
+}
+
+#imgAbril p{
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+#SiguenosFacebook{
+  text-align: center;
+  font-weight: 400;
+}
+
+#SiguenosFacebook img{
+  width: 100%;
+  max-width: 542px;
+  height: auto;
 }

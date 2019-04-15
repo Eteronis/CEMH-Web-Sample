@@ -3,10 +3,13 @@ import React, { Component } from 'react';
 class Footer extends Component{
     render(){
         return(
-            <div className="container">
-                <div className="row">
+            <div className="container-fluid fixed-bottom" id="FooterContainer">
+                <div className="navbar navbar-ligth" id="Navigator">
                     <div className="col">
-                        <h1>This's Footer.</h1>
+                        <p>Colegion Eugenio María de Hostos.</p>
+                    </div>
+                    <div className="col">
+                        <p>besoft Inc.</p>
                     </div>
                 </div>
             </div>
