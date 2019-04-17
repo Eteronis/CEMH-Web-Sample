@@ -5,7 +5,8 @@ import './App.css';
 // IMPORTING COMPONENTS
 import Navigator from './modules/Navigator';
 import Landingpage from './modules/Landingpage';
-import Historiadelcentro from './modules/Historiadelcentro'
+import Historiadelcentro from './modules/Historiadelcentro';
+import Misionfilosofia from './modules/Misionfilosofia';
 import Footer from './modules/Footer';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
           <div>
             <Route exact path="/" component={Landingpage} />
             <Route path="/historiadelcentro" component={Historiadelcentro} />
+            <Route path="/misionfilosofia" component={Misionfilosofia} />
           </div>
         </Router>
         <Footer />

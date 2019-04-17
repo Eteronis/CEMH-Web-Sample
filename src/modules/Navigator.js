@@ -24,7 +24,7 @@ class Navigator extends Component{
                                 ¿Quiénes somos?</a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a className="dropdown-item" href="/historiadelcentro">Historia del centro</a>
-                                <a className="dropdown-item" href="/">Misión y filosofía</a>
+                                <a className="dropdown-item" href="/misionfilosofia">Misión y filosofía</a>
                                 <div className="dropdown-divider"></div>
                                 <a className="dropdown-item" href="/">Nuestro staff</a>
                                 </div>

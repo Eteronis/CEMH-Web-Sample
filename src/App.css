@@ -35,6 +35,22 @@ body{
   padding-right: 90px;
 }
 
+#misionfilosfia img{
+  width: 100%;
+  max-width: 930px;
+  height: auto;
+}
+
+#misionfTitle{
+  text-align: center;
+}
+
+#principiosfilosoficos p{
+  text-align: justify;
+  padding-left: 90px;
+  padding-right: 85px;
+}
+
 #FooterContainer{
   padding: 0px;
 }
